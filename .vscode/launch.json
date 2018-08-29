@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "${config.python.pythonPath}",
+            "program": "${file}",
+            "cwd": "${workspaceRoot}",
+            "debugOptions": [
+                "WaitOnAbnormalExit",
+                "WaitOnNormalExit",
+                "RedirectOutput"
+            ],
+            "env": {
+                "PYTHONPATH": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python37\\python.exe:G:\\Program Files (x86)\\Python\\Python37-32\\python.exe"
+            }
+        }
+    ],
+    "compounds": []
+}
