@@ -1,5 +1,7 @@
 {
-    "python.pythonPath": "C:\\Users\\Am\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe"
+    "python.pythonPath": "P:\\Amsyar\\Program Files\\Python\\Python37\\python.exe",
+    "python.envFile": "${workspaceFolder}/.env"
 }
+
 
 
