@@ -15,7 +15,7 @@
                 "RedirectOutput"
             ],
             "env": {
-                "PYTHONPATH": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python37\\python.exe:G:\\Program Files (x86)\\Python\\Python37-32\\python.exe"
+                "PYTHONPATH": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python37\\python.exe:G:\\Program Files (x86)\\Python\\Python37-32\\python.exe:C:\\Users\\Am\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe"
             }
         }
     ],
