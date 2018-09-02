@@ -28,4 +28,4 @@ if 1 <= choice <= 4:
 elif choice == 5:
     exit()
 else:
-    print("Wrong input..!!");
+    print("Error! Wrong input..!!")
