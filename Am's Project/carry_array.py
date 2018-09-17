@@ -1,22 +1,9 @@
-# def add_one(given_array):
-#     carry = 1
-#     result = int[given_array.length]
-#
-#     for i from (given_array.length - 1) down to 0:
-#         total = given_array[i] + carry
-#         if total == 10:
-#             carry = 1
-#         else:
-#             carry = 0
-#             result[i] = total % 10
-#         if carry == 1:
-#             result = int[given_array.length + 1]
-#             result[0] = 1
-#         return result
+question_1 = [9,9,9]
+print(question_1)
 
-def addOne(givenArray):
-    arrayStr = ""
-    for i in givenArray:
-        arrayStr += str(i)
-        arrayInt = int(arrayStr)
-    return arrayInt + 1
+def carryInt(addOne):
+    i = int("".join(map(str,addOne)))
+    i += 1
+    l = list(map(int,list(str(i))))
+    return l
+print(carryInt(question_1))
